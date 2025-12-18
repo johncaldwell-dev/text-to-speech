@@ -14,6 +14,12 @@ def speak():
 
     engine.say(words)
     engine.runAndWait()
+
+    clear_inputbox()
+    
+
+def clear_inputbox():
+    say.delete(0, END)
         
 
 window = CTk()
